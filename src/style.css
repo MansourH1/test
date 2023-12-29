@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components{
+    .td{
+        @apply border-2 border-orange-500 w-auto;
+    }
+}
